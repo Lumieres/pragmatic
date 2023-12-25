@@ -1,5 +1,6 @@
 .pragmatic_logo{
     font-family: 'Lobster', cursive;
+    font-size: 3rem;
 }
 
 .pragmatic_footer_button {
@@ -14,4 +15,10 @@
 .pragmatic_header {
     text-align:center;
     margin: 2rem 0;
+}
+
+@media screen and (max-width:500px) {
+    html {
+        font-size: 13px;
+    }
 }
